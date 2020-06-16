@@ -7,9 +7,10 @@ verify_ssl = true
 
 [packages]
 python-decouple = "*"
-psycopg2-binary = "*"
+psycopg2 = "*"
 flask = "*"
 flask_restful = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.6"
